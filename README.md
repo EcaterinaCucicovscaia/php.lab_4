@@ -21,10 +21,8 @@ OpenServer
 
 Откройте браузер и перейдите по адресу:
 
-arduino
-Copy
-Edit
-http://localhost/your_project_folder/
+
+http://localhost/lab4/
 Для каждого задания запустите соответствующий файл:
 
 Задание 1: task1_for.php
@@ -38,10 +36,8 @@ http://localhost/your_project_folder/
 Задание 5: task5_gallery.php
 
 🔧 Структура проекта
-text
-Copy
-Edit
-/your_project_folder
+
+/lab4
 │
 ├── task1_for.php
 ├── task2_while.php
@@ -61,9 +57,7 @@ task5_gallery.php	Вывод изображений из папки image/ в в
 
 💡 Примеры использования
 🔁 Задание 1: Цикл for
-php
-Copy
-Edit
+
 for ($i = 0; $i <= 5; $i++) {
     $a += 10;
     $b += 5;
@@ -84,9 +78,7 @@ Edit
     <?php endforeach; ?>
 </table>
 🖼 Задание 5: Галерея изображений
-php
-Copy
-Edit
+
 $files = scandir('image/');
 foreach ($files as $file) {
     if (pathinfo($file, PATHINFO_EXTENSION) === 'jpg') {
